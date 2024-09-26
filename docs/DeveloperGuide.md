@@ -368,7 +368,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 **MSS**
 
-1. User requests to list students(UC1).
+1. User requests to <ins>list students(UC1)</ins>.
 2. User enters `delete [INDEX]` where index is index of specific student.
 3. System displays list with entry at specific index deleted.
 
