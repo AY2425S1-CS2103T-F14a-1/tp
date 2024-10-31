@@ -64,6 +64,7 @@
         "launch-and-shutdown": "Launch and shutdown",
         "finding-students": "Finding students",
         "deleting-a-student": "Deleting a student",
+        "getting-a-reminder": "Getting a reminder",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
