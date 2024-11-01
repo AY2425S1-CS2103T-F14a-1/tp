@@ -11,7 +11,7 @@ with(this){return _c('h1',{attrs:{"id":"ugteach-developer-guide"}},[_v("UGTeach 
 with(this){return _c('h2',{attrs:{"id":"acknowledgements"}},[_c('strong',[_v("Acknowledgements")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acknowledgements","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("This project is based on the AddressBook-Level3 project created by the "),_c('a',{attrs:{"href":"https://se-education.org"}},[_v("SE-EDU initiative")]),_v(".")])}
+with(this){return _c('ul',[_c('li',[_v("This project is based on the AddressBook-Level3 project created by the "),_c('a',{attrs:{"href":"https://se-education.org"}},[_v("SE-EDU initiative")]),_v(".")]),_v(" "),_c('li',[_v("Libraries used: "),_c('a',{attrs:{"href":"https://openjfx.io/"}},[_v("JavaFX")]),_v(", "),_c('a',{attrs:{"href":"https://github.com/FasterXML/jackson"}},[_v("Jackson")]),_v(", "),_c('a',{attrs:{"href":"https://github.com/junit-team/junit5"}},[_v("JUnit5")])])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"setting-up-getting-started"}},[_c('strong',[_v("Setting up, getting started")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#setting-up-getting-started","onclick":"event.stopPropagation()"}})])}
@@ -284,21 +284,6 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The given index is invalid.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters command with new index.")])])]),_v(" "),_c('li',[_c('p',[_v("Steps 2a1-2a2 are repeated until index entered is correct.")])]),_v(" "),_c('li',[_c('p',[_v("Use case resumes from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("2b. System detects error in format of entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2b1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2b2. User enters new command.")])])]),_v(" "),_c('li',[_c('p',[_v("Steps 2b1-2b2 are repeated until all details entered are correct.")])]),_v(" "),_c('li',[_c('p',[_v("Use case resumes from step 3.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC06 - Receiving tuition fee from a student")])])}
-},function anonymous(
-) {
-with(this){return _c('p',[_c('strong',[_v("MSS")])])}
-},function anonymous(
-) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to "),_c('ins',[_v("find a student(UC05)")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User enters command to record payment received from the specified student after a lesson.")])]),_v(" "),_c('li',[_c('p',[_v("System calculates the tuition fee paid by the student for the lesson.")])]),_v(" "),_c('li',[_c('p',[_v("System updates the total tuition fee paid by the student.")])]),_v(" "),_c('li',[_c('p',[_v("System displays success message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
-},function anonymous(
-) {
-with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
-},function anonymous(
-) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. System cannot find the specified student.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. User "),_c('ins',[_v("adds the student to the system (UC01)"),_c('ins',[_v(".")])])])])]),_v(" "),_c('li',[_c('p',[_v("Use case resumes from step 1.")])]),_v(" "),_c('li',[_c('p',[_v("2a. System detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters new command.")])])]),_v(" "),_c('li',[_c('p',[_v("Steps 2a1-2a2 are repeated until all details entered are correct.")])]),_v(" "),_c('li',[_c('p',[_v("Use case resumes from step 3.")])])])}
-},function anonymous(
-) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC05 - Find student entries")])])}
 },function anonymous(
 ) {
@@ -312,6 +297,21 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. System detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("1a2. User enters new command.")])])]),_v(" "),_c('li',[_c('p',[_v("Steps 1a1-1a2 are repeated until all details entered are correct.")])]),_v(" "),_c('li',[_c('p',[_v("Use case resumes from step 2.")])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Use case: UC06 - Receiving tuition fee from a student")])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("MSS")])])}
+},function anonymous(
+) {
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to "),_c('ins',[_v("find a student(UC05)")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User enters command to record payment received from the specified student after a lesson.")])]),_v(" "),_c('li',[_c('p',[_v("System updates the total tuition fee paid by the student.")])]),_v(" "),_c('li',[_c('p',[_v("System displays success message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+},function anonymous(
+) {
+with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
+},function anonymous(
+) {
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. System cannot find the specified student.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. User "),_c('ins',[_v("adds the student to the system (UC01)"),_c('ins',[_v(".")])])])])]),_v(" "),_c('li',[_c('p',[_v("Use case resumes from step 1.")])]),_v(" "),_c('li',[_c('p',[_v("2a. System detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters new command.")])])]),_v(" "),_c('li',[_c('p',[_v("Steps 2a1-2a2 are repeated until all details entered are correct.")])]),_v(" "),_c('li',[_c('p',[_v("Use case resumes from step 3.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
@@ -413,6 +413,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 1 Nov 2024, 11:01:38 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 1 Nov 2024, 11:22:23 GMT+8]")])])])}
 }];
   
