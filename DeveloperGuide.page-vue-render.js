@@ -203,7 +203,7 @@ with(this){return _c('p',[_c('strong',[_v("Target user profile")]),_v(":")])}
 with(this){return _c('ul',[_c('li',[_v("is a full time university student with fixed schedule")]),_v(" "),_c('li',[_v("is giving private tuition to a significant number of students")]),_v(" "),_c('li',[_v("has a need to manage a significant number of tutees' information")]),_v(" "),_c('li',[_v("prefer desktop apps over other types")]),_v(" "),_c('li',[_v("can type fast")]),_v(" "),_c('li',[_v("prefers typing to mouse interactions")]),_v(" "),_c('li',[_v("is reasonably comfortable using CLI apps")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Value proposition")]),_v(": Empower undergraduate private tutors to efficiently manage payments, track student performance, and organize schedules using CLI.")])}
+with(this){return _c('p',[_c('strong',[_v("Value proposition")]),_v(": Empower undergraduate private tutors to efficiently manage payments, and organize schedules using CLI.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"user-stories"}},[_v("User stories"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#user-stories","onclick":"event.stopPropagation()"}})])}
@@ -329,31 +329,31 @@ with(this){return _c('ol',[_c('li',[_v("Should work on any "),_c('em',[_v("mains
 with(this){return _c('p',[_c('strong',[_v("Data Requirements")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("All the data should be stored in human-editable files and must not be stored using DBMS.")]),_v(" "),_c('li',[_v("Data should be saved permanently and not affected by any sudden accidents e.g., power outage, hardware breakdown.")])])}
+with(this){return _c('ol',[_c('li',[_v("All the data should be stored in human-editable files and must not be stored using DBMS.")]),_v(" "),_c('li',[_v("Data should be saved permanently and must not be affected by power outage.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Performance Requirements")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("Should be able to hold up to 1000 students without a noticeable sluggishness in performance for typical usage.")]),_v(" "),_c('li',[_v("For any simple usage, the application should be able to respond within 2 seconds.")])])}
+with(this){return _c('ol',[_c('li',[_v("Should be able to hold up to 1000 students without any noticeable sluggishness in performance for typical usage.")]),_v(" "),_c('li',[_v("For any simple usage, the application should be able to respond within 2 seconds.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Accessibility")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.")]),_v(" "),_c('li',[_v("The user interface should be easy to navigate and intuitive, with clear labels, large enough texts, and highlighted error messages.")]),_v(" "),_c('li',[_v("The application should provide clear help sections for users, explaining how to use its features.")])])}
+with(this){return _c('ol',[_c('li',[_v("A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.")]),_v(" "),_c('li',[_v("The user interface should work appear seamlessly for screens with standard resolutions (1920x1080) and higher.")]),_v(" "),_c('li',[_v("The user interface should be easy to navigate and intuitive, with clear labels, and large enough texts.")]),_v(" "),_c('li',[_v("The application should provide clear help sections for users, explaining how to use its features.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Concurrency Control")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("Should only be used by one student at a time, meaning it is designed for a single user and cannot be accessed or shared by multiple users simultaneously.")])])}
+with(this){return _c('ol',[_c('li',[_v("Should only be used by one user at a time, meaning it is designed for a single user and cannot be accessed or shared by multiple users simultaneously.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Testability")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("The software should not depend on any remote server and should be able to run at any time.")]),_v(" "),_c('li',[_v("The application should be able to launch without an installer.")]),_v(" "),_c('li',[_v("Features should be testable without any external installation or access e.g., remote APIs, audio players, user accounts, internet connection.")])])}
+with(this){return _c('ol',[_c('li',[_v("The software should not depend on any remote server and should be able to run at any time.")]),_v(" "),_c('li',[_v("The application should be able to launch without an installer.")]),_v(" "),_c('li',[_v("Features should be testable without any external access e.g., remote APIs, audio players, user accounts, internet connection, after the initial download of the application's jar file.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Security Requirements")])])}
@@ -413,6 +413,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 1 Nov 2024, 12:25:40 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 1 Nov 2024, 12:43:26 GMT+8]")])])])}
 }];
   
