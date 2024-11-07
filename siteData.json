@@ -63,6 +63,8 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "finding-students": "Finding students",
+        "adding-a-new-student": "Adding a new student",
+        "editing-an-existing-student": "Editing an existing student",
         "deleting-a-student": "Deleting a student",
         "getting-a-reminder": "Getting a reminder",
         "using-pay-command": "Using pay command",
