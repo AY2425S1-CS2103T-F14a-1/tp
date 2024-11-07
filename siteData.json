@@ -65,6 +65,9 @@
         "finding-students": "Finding students",
         "deleting-a-student": "Deleting a student",
         "getting-a-reminder": "Getting a reminder",
+        "using-pay-command": "Using pay command",
+        "using-owe-command": "Using owe command",
+        "using-settle-command": "Using settle command",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
