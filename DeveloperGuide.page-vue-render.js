@@ -248,13 +248,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC01 - Adding a student")])
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User enters command to create new student entry.")])]),_v(" "),_c('li',[_c('p',[_v("System displays success message and command line is cleared.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User enters command to create new student entry.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach displays success message and command line is cleared.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. System detects error in entered command.\n"),_c('ul',[_c('li',[_v("1a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("1a2. User enters new command."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. UGTeach detects error in entered command.\n"),_c('ul',[_c('li',[_v("1a1. UGTeach displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("1a2. User enters new command."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC02 - Read all entries")])])}
@@ -263,13 +263,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC02 - Read all entries")])
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User enters command to view all entries.")])]),_v(" "),_c('li',[_c('p',[_v("System displays list with all entries to the user.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User enters command to view all entries.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach displays list with all entries to the user.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extension")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. System detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("1a2. User enters new command."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 2."),_c('br'),_c('br')])])]),_v(" "),_c('li',[_c('p',[_v("1b. System detects the list is empty.")]),_v(" "),_c('ul',[_c('li',[_v("1b1. System shows an empty list."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. UGTeach detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. UGTeach displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("1a2. User enters new command."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 2."),_c('br'),_c('br')])])]),_v(" "),_c('li',[_c('p',[_v("1b. UGTeach detects the list is empty.")]),_v(" "),_c('ul',[_c('li',[_v("1b1. UGTeach shows an empty list."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Read total earnings")])])}
@@ -278,13 +278,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Read total earnings"
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User enters command to read total earnings and total amount owed by the students.")])]),_v(" "),_c('li',[_c('p',[_v("System displays total earnings and total amount owed to the user.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User enters command to read total earnings and total amount owed by the students.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach displays total earnings and total amount owed to the user.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extension")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. System detects error in entered command.\n"),_c('ul',[_c('li',[_v("1a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("1a2. User enters new command."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. UGTeach detects error in entered command.\n"),_c('ul',[_c('li',[_v("1a1. UGTeach displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("1a2. User enters new command."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC04 - Delete a student entry")])])}
@@ -293,13 +293,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC04 - Delete a student ent
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to "),_c('ins',[_v("find a student(UC05)")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User enters command to delete a specific student.")])]),_v(" "),_c('li',[_c('p',[_v("System displays list with specified student deleted from the list.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to "),_c('ins',[_v("find a student(UC05)")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User enters command to delete a specific student.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach displays list with specified student deleted from the list.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. System cannot find the specified student."),_c('br'),_v("\nUse case ends."),_c('br'),_c('br')])]),_v(" "),_c('li',[_c('p',[_v("2a. System detects error in format of entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters command with new index."),_c('br'),_v("\nSteps 2a1-2a2 are repeated until index entered is correct."),_c('br'),_v("\nUse case resumes from step 3.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. UGTeach cannot find the specified student."),_c('br'),_v("\nUse case ends."),_c('br'),_c('br')])]),_v(" "),_c('li',[_c('p',[_v("2a. UGTeach detects error in format of entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. UGTeach displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters command with new index."),_c('br'),_v("\nSteps 2a1-2a2 are repeated until index entered is correct."),_c('br'),_v("\nUse case resumes from step 3.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC05 - Find student entries")])])}
@@ -308,13 +308,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC05 - Find student entries
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User enters command to find students based on the specified keywords.")])]),_v(" "),_c('li',[_c('p',[_v("System displays list with students with matching details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User enters command to find students based on the specified keywords.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach displays list with students with matching details.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. System cannot find any student with the specified keyword.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. System displays an empty list."),_c('br'),_v("\nUse case ends."),_c('br'),_c('br')])])]),_v(" "),_c('li',[_c('p',[_v("1b. System detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("1b1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("1b2. User enters new command."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. UGTeach cannot find any student with the specified keyword.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. UGTeach displays an empty list."),_c('br'),_v("\nUse case ends."),_c('br'),_c('br')])])]),_v(" "),_c('li',[_c('p',[_v("1b. UGTeach detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("1b1. UGTeach displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("1b2. User enters new command."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC06 - Receiving tuition fee from a student")])])}
@@ -323,13 +323,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC06 - Receiving tuition fe
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to "),_c('ins',[_v("find a student(UC05)")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User enters command to record payment received from the specified student after a lesson.")])]),_v(" "),_c('li',[_c('p',[_v("System updates the total tuition fee paid by the student.")])]),_v(" "),_c('li',[_c('p',[_v("System displays success message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to "),_c('ins',[_v("find a student(UC05)")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User enters command to record payment received from the specified student after a lesson.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach updates the total tuition fee paid by the student.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach displays success message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. System cannot find the specified student.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. User "),_c('ins',[_v("adds the student to the system (UC01)")]),_v("."),_c('br'),_v("\nUse case resumes from step 1."),_c('br'),_c('br')])])]),_v(" "),_c('li',[_c('p',[_v("2a. System detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters new command."),_c('br'),_v("\nSteps 2a1-2a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 3.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. UGTeach cannot find the specified student.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. User "),_c('ins',[_v("adds the student to UGTeach(UC01)")]),_v("."),_c('br'),_v("\nUse case resumes from step 1."),_c('br'),_c('br')])])]),_v(" "),_c('li',[_c('p',[_v("2a. UGTeach detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. UGTeach displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters new command."),_c('br'),_v("\nSteps 2a1-2a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 3.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC07 - Updating amount of tuition fee owed by student")])])}
@@ -338,13 +338,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC07 - Updating amount of t
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to "),_c('ins',[_v("find a student(UC05)")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User enters command to update amount of tuition fee owed by the specified student after a lesson.")])]),_v(" "),_c('li',[_c('p',[_v("System updates the total tuition fee owed by the student.")])]),_v(" "),_c('li',[_c('p',[_v("System displays success message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to "),_c('ins',[_v("find a student(UC05)")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User enters command to update amount of tuition fee owed by the specified student after a lesson.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach updates the total tuition fee owed by the student.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach displays success message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. System cannot find the specified student.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. User "),_c('ins',[_v("adds the student to the system (UC01)")]),_v("."),_c('br'),_v("\nUse case resumes from step 1."),_c('br'),_c('br')])])]),_v(" "),_c('li',[_c('p',[_v("2a. System detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters new command."),_c('br'),_v("\nSteps 2a1-2a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 3.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. UGTeach cannot find the specified student.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. User "),_c('ins',[_v("adds the student to UGTeach (UC01)")]),_v("."),_c('br'),_v("\nUse case resumes from step 1."),_c('br'),_c('br')])])]),_v(" "),_c('li',[_c('p',[_v("2a. UGTeach detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. UGTeach displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters new command."),_c('br'),_v("\nSteps 2a1-2a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 3.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Settle outstanding fees for student")])])}
@@ -353,13 +353,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Settle outstanding f
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to "),_c('ins',[_v("find a student(UC05)")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User enters command to settle outstanding fees for the specified student.")])]),_v(" "),_c('li',[_c('p',[_v("System updates the total tuition fee paid and total tuition fee owed by the student.")])]),_v(" "),_c('li',[_c('p',[_v("System displays success message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to "),_c('ins',[_v("find a student(UC05)")]),_v(".")])]),_v(" "),_c('li',[_c('p',[_v("User enters command to settle outstanding fees for the specified student.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach updates the total tuition fee paid and total tuition fee owed by the student.")])]),_v(" "),_c('li',[_c('p',[_v("UGTeach displays success message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. System cannot find the specified student.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. User "),_c('ins',[_v("adds the student to the system (UC01)")]),_v("."),_c('br'),_v("\nUse case resumes from step 1."),_c('br'),_c('br')])])]),_v(" "),_c('li',[_c('p',[_v("2a. System detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters new command."),_c('br'),_v("\nSteps 2a1-2a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 3.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. UGTeach cannot find the specified student.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. User "),_c('ins',[_v("adds the student to UGTeach (UC01)")]),_v("."),_c('br'),_v("\nUse case resumes from step 1."),_c('br'),_c('br')])])]),_v(" "),_c('li',[_c('p',[_v("2a. UGTeach detects error in entered command.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. UGTeach displays error message and does not clear command line.")]),_v(" "),_c('li',[_v("2a2. User enters new command."),_c('br'),_v("\nSteps 2a1-2a2 are repeated until all details entered are correct."),_c('br'),_v("\nUse case resumes from step 3.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"non-functional-requirements"}},[_v("Non-Functional Requirements"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#non-functional-requirements","onclick":"event.stopPropagation()"}})])}
@@ -497,6 +497,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Prerequisite: You have not edited the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("preferences.json")]),_v(" file. There is a folder named "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("data")]),_v(" in the same directory as the jar file, and there is a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ugteach.json")]),_v(" file in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("data")]),_v(" folder.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: Delete the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ugteach.json")]),_v(" file."),_c('br'),_v("\nExpected: UGTeach should create a new "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ugteach.json")]),_v(" file with default data.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: Delete the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("data")]),_v(" folder together with the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ugteach.json")]),_v(" file."),_c('br'),_v("\nExpected: Similar to previous.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: Corrupt the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ugteach.json")]),_v(" file by changing its contents to invalid format."),_c('br'),_v("\ne.g. add a non-alphanumeric character to one of the student's name."),_c('br'),_v("\nExpected: UGTeach should discard all data in the file and start with an empty "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ugteach.json")]),_v(" file.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 14:42:56 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 15:00:42 GMT+8]")])])])}
 }];
   
